@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D636A6EA1A22FAF4006BB20F /* NumberPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = D636A6E91A22FAF4006BB20F /* NumberPad.swift */; };
+		D63942E41A17DB04001B4C2A /* DeviceListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63942E31A17DB04001B4C2A /* DeviceListController.swift */; };
+		D64B3B4B19E797F900605DCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64B3B4A19E797F900605DCA /* AppDelegate.swift */; };
+		D64B3B4D19E797F900605DCA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64B3B4C19E797F900605DCA /* LoginViewController.swift */; };
+		D64B3B5019E797F900605DCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D64B3B4E19E797F900605DCA /* Main.storyboard */; };
+		D64B3B5219E797F900605DCA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D64B3B5119E797F900605DCA /* Images.xcassets */; };
+		D64B3B5519E797F900605DCA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D64B3B5319E797F900605DCA /* LaunchScreen.xib */; };
+		D69558BD1AB3F528009BF3D4 /* LaunchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = D69558BB1AB3F528009BF3D4 /* LaunchScreen.png */; };
+		D69558BE1AB3F528009BF3D4 /* remoteIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D69558BC1AB3F528009BF3D4 /* remoteIcon.png */; };
+		D6C5CA2B1A187A0500AFB41A /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5CA2A1A187A0500AFB41A /* KeychainService.swift */; };
+		D6C5CA2D1A19572800AFB41A /* CommandMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5CA2C1A19572800AFB41A /* CommandMapping.swift */; };
+		D6C5CA301A1F137D00AFB41A /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5CA2F1A1F137D00AFB41A /* RoundButton.swift */; };
+		D6D02DAD1A15B10F00799F69 /* SparkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D02DAC1A15B10F00799F69 /* SparkController.swift */; };
+		D6D02DAF1A17162A00799F69 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D02DAE1A17162A00799F69 /* MainViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D636A6E91A22FAF4006BB20F /* NumberPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberPad.swift; sourceTree = "<group>"; };
+		D63942E31A17DB04001B4C2A /* DeviceListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceListController.swift; sourceTree = "<group>"; };
+		D64B3B4519E797F900605DCA /* TVRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D64B3B4919E797F900605DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D64B3B4A19E797F900605DCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D64B3B4C19E797F900605DCA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D64B3B4F19E797F900605DCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D64B3B5119E797F900605DCA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D64B3B5419E797F900605DCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D69558BB1AB3F528009BF3D4 /* LaunchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchScreen.png; sourceTree = "<group>"; };
+		D69558BC1AB3F528009BF3D4 /* remoteIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = remoteIcon.png; sourceTree = "<group>"; };
+		D6C5CA2A1A187A0500AFB41A /* KeychainService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		D6C5CA2C1A19572800AFB41A /* CommandMapping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandMapping.swift; sourceTree = "<group>"; };
+		D6C5CA2F1A1F137D00AFB41A /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		D6D02DAC1A15B10F00799F69 /* SparkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkController.swift; sourceTree = "<group>"; };
+		D6D02DAE1A17162A00799F69 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D64B3B4219E797F900605DCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D63942E51A17E73D001B4C2A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D63942E31A17DB04001B4C2A /* DeviceListController.swift */,
+				D64B3B4C19E797F900605DCA /* LoginViewController.swift */,
+				D6D02DAE1A17162A00799F69 /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D63942E61A17E753001B4C2A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D6D02DAC1A15B10F00799F69 /* SparkController.swift */,
+				D6C5CA2A1A187A0500AFB41A /* KeychainService.swift */,
+				D6C5CA2C1A19572800AFB41A /* CommandMapping.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D64B3B3C19E797F900605DCA = {
+			isa = PBXGroup;
+			children = (
+				D64B3B4719E797F900605DCA /* TVRemote */,
+				D64B3B4619E797F900605DCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D64B3B4619E797F900605DCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D64B3B4519E797F900605DCA /* TVRemote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D64B3B4719E797F900605DCA /* TVRemote */ = {
+			isa = PBXGroup;
+			children = (
+				D691E2D71AB3F11000C4F3D5 /* Images */,
+				D63942E61A17E753001B4C2A /* Helpers */,
+				D63942E51A17E73D001B4C2A /* Controllers */,
+				D64B3B4A19E797F900605DCA /* AppDelegate.swift */,
+				D64B3B4E19E797F900605DCA /* Main.storyboard */,
+				D64B3B5119E797F900605DCA /* Images.xcassets */,
+				D64B3B5319E797F900605DCA /* LaunchScreen.xib */,
+				D64B3B4819E797F900605DCA /* Supporting Files */,
+				D6C5CA2F1A1F137D00AFB41A /* RoundButton.swift */,
+				D636A6E91A22FAF4006BB20F /* NumberPad.swift */,
+			);
+			path = TVRemote;
+			sourceTree = "<group>";
+		};
+		D64B3B4819E797F900605DCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D64B3B4919E797F900605DCA /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D691E2D71AB3F11000C4F3D5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D69558BB1AB3F528009BF3D4 /* LaunchScreen.png */,
+				D69558BC1AB3F528009BF3D4 /* remoteIcon.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D64B3B4419E797F900605DCA /* TVRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D64B3B6419E797F900605DCA /* Build configuration list for PBXNativeTarget "TVRemote" */;
+			buildPhases = (
+				D64B3B4119E797F900605DCA /* Sources */,
+				D64B3B4219E797F900605DCA /* Frameworks */,
+				D64B3B4319E797F900605DCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TVRemote;
+			productName = TVRemote;
+			productReference = D64B3B4519E797F900605DCA /* TVRemote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D64B3B3D19E797F900605DCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = SimplexSoftware;
+				TargetAttributes = {
+					D64B3B4419E797F900605DCA = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = CPP7GY5XB6;
+					};
+				};
+			};
+			buildConfigurationList = D64B3B4019E797F900605DCA /* Build configuration list for PBXProject "TVRemote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D64B3B3C19E797F900605DCA;
+			productRefGroup = D64B3B4619E797F900605DCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D64B3B4419E797F900605DCA /* TVRemote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D64B3B4319E797F900605DCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64B3B5019E797F900605DCA /* Main.storyboard in Resources */,
+				D64B3B5519E797F900605DCA /* LaunchScreen.xib in Resources */,
+				D69558BE1AB3F528009BF3D4 /* remoteIcon.png in Resources */,
+				D69558BD1AB3F528009BF3D4 /* LaunchScreen.png in Resources */,
+				D64B3B5219E797F900605DCA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D64B3B4119E797F900605DCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C5CA301A1F137D00AFB41A /* RoundButton.swift in Sources */,
+				D6D02DAD1A15B10F00799F69 /* SparkController.swift in Sources */,
+				D64B3B4D19E797F900605DCA /* LoginViewController.swift in Sources */,
+				D6C5CA2D1A19572800AFB41A /* CommandMapping.swift in Sources */,
+				D64B3B4B19E797F900605DCA /* AppDelegate.swift in Sources */,
+				D6D02DAF1A17162A00799F69 /* MainViewController.swift in Sources */,
+				D636A6EA1A22FAF4006BB20F /* NumberPad.swift in Sources */,
+				D63942E41A17DB04001B4C2A /* DeviceListController.swift in Sources */,
+				D6C5CA2B1A187A0500AFB41A /* KeychainService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D64B3B4E19E797F900605DCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D64B3B4F19E797F900605DCA /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		D64B3B5319E797F900605DCA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D64B3B5419E797F900605DCA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D64B3B6219E797F900605DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D64B3B6319E797F900605DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D64B3B6519E797F900605DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "TVRemote/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D64B3B6619E797F900605DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "TVRemote/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D64B3B4019E797F900605DCA /* Build configuration list for PBXProject "TVRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D64B3B6219E797F900605DCA /* Debug */,
+				D64B3B6319E797F900605DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D64B3B6419E797F900605DCA /* Build configuration list for PBXNativeTarget "TVRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D64B3B6519E797F900605DCA /* Debug */,
+				D64B3B6619E797F900605DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D64B3B3D19E797F900605DCA /* Project object */;
+}
